@@ -2,6 +2,7 @@
   "private": "true",
   "workspaces": [
     "simple-dependency",
+    "simple-dependency-reexport",
     "parcel-repro-simple",
     "parcel-repro-real",
     "webpack-test"

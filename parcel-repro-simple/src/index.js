@@ -1,3 +1,3 @@
-import { message } from "simple-dependency";
+import { message, getMessage } from "simple-dependency-reexport";
 
-console.log(message);
+console.log(message, getMessage());

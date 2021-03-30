@@ -7,5 +7,9 @@
 // console.log("here is buildClassMap: ", buildClassMap);
 
 // This triggers the issue:
-import { initializeIcons } from "@fluentui/react";
-initializeIcons();
+// import { initializeIcons } from "@fluentui/react";
+// initializeIcons();
+
+// This also triggers a different issue:
+import { Overlay } from "@fluentui/react";
+console.log("here is Overlay: ", Overlay);
