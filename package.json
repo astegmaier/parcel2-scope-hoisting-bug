@@ -5,13 +5,15 @@
     "simple-dependency-reexport",
     "parcel-repro-simple",
     "parcel-repro-real",
-    "webpack-test"
+    "webpack-test",
+    "fluentui-local"
   ],
   "scripts": {
     "clean": "yarn dep clean && yarn dep2 clean && yarn simple clean && yarn real clean",
     "build": "yarn dep build && yarn dep2 build && yarn simple build && yarn real build && yarn webpack build",
     "dep": "yarn workspace simple-dependency",
     "dep2": "yarn workspace simple-dependency-reexport",
+    "fluent": "yarn workspace fluentui-local",
     "simple": "yarn workspace parcel-repro-simple",
     "real": "yarn workspace parcel-repro-real",
     "webpack": "yarn workspace webpack-test"

@@ -1,0 +1,4 @@
+/* eslint-disable */
+import { loadStyles } from '@microsoft/load-themed-styles';
+loadStyles([{"rawString":".suggestionsContainer_2eb1d72c{overflow-y:auto;overflow-x:hidden;max-height:300px}.suggestionsContainer_2eb1d72c .ms-Suggestion-item:hover{background-color:"},{"theme":"neutralLighter","defaultValue":"#f3f2f1"},{"rawString":";cursor:pointer}.suggestionsContainer_2eb1d72c .is-suggested{background-color:"},{"theme":"themeLighter","defaultValue":"#deecf9"},{"rawString":"}.suggestionsContainer_2eb1d72c .is-suggested:hover{background-color:"},{"theme":"themeLight","defaultValue":"#c7e0f4"},{"rawString":";cursor:pointer}"}]);
+export const suggestionsContainer = "suggestionsContainer_2eb1d72c";

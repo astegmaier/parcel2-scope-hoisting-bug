@@ -1,4 +1,5 @@
 export * from "./messages";
+export * from "./MergeStyles";
 
 export const something = {
   a: 1,
