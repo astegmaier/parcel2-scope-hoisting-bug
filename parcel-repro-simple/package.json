@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/index.html --cache-dir .parcel-cache",
+    "build": "parcel build src/index.html --no-optimize --cache-dir .parcel-cache",
     "clean": "rimraf dist && rimraf .parcel-cache",
     "serve": "http-server dist --port 8081"
   },

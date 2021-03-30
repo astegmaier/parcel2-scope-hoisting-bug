@@ -5,5 +5,7 @@
   "description": "A package the re-exports from simple-dependency",
   "private": true,
   "main": "./index.js",
-  "sideEffects": false
+  "sideEffects": [
+    "sideEffect.js"
+  ]
 }
