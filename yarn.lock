@@ -914,12 +914,47 @@
     lodash "^4.17.19"
     to-fast-properties "^2.0.0"
 
+"@fluentui/date-time-utilities@^8.0.1":
+  version "8.0.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/date-time-utilities/-/date-time-utilities-8.0.1.tgz#e78778fd6f841af8863535a52289053c51e23507"
+  integrity sha512-s6yafxXMQlkXAVgANf7mjWqgd4YaqYXT1Vqv9Kf9vinNtQurBY7wiN/b0CjcDbzDqEzT5dM0NLMG3pg5L/8hpA==
+  dependencies:
+    "@fluentui/set-version" "^8.0.1"
+    tslib "^1.10.0"
+
 "@fluentui/dom-utilities@^2.0.1":
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/@fluentui/dom-utilities/-/dom-utilities-2.0.1.tgz#86c0de719fd07b435104f4c17ff8e78aca1a61fe"
   integrity sha512-gQZaUN2bUwT2pSSpWr2VaC0OHBzgLC4FXDtZneHnT2Z6RPOpPoTHXuVmVmOtZ1VdVn3OMd1uFh3bbMr1WvUrMQ==
   dependencies:
     "@fluentui/set-version" "^8.0.1"
+    tslib "^1.10.0"
+
+"@fluentui/font-icons-mdl2@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@fluentui/font-icons-mdl2/-/font-icons-mdl2-8.0.2.tgz#2c4e7d3c1c528d4cdfa7e0228df4a7ac414d6ef3"
+  integrity sha512-KiEKYJgMbRiWI2az04QY2o7icCkHwEWsGSFlpLvwCJNvMAw22o/Dnx6vnJM/F1aH90TvC16OILpGzwH1IH3o+Q==
+  dependencies:
+    "@fluentui/set-version" "^8.0.1"
+    "@fluentui/style-utilities" "^8.0.2"
+    tslib "^1.10.0"
+
+"@fluentui/foundation-legacy@^8.0.2":
+  version "8.0.2"
+  resolved "https://registry.yarnpkg.com/@fluentui/foundation-legacy/-/foundation-legacy-8.0.2.tgz#686db2650c52c8ca362aa4d6d994b51ff0be6d5a"
+  integrity sha512-NEE0cJBLQRJcUbrSABTquDjARXwu+I7hS6rMp25lYscjERIDaZRFDSKZHEOARnBuV4+dhYNu50+8LaRaSWJhgA==
+  dependencies:
+    "@fluentui/merge-styles" "^8.0.2"
+    "@fluentui/set-version" "^8.0.1"
+    "@fluentui/style-utilities" "^8.0.2"
+    "@fluentui/utilities" "^8.0.2"
+    tslib "^1.10.0"
+
+"@fluentui/keyboard-key@^0.2.15":
+  version "0.2.15"
+  resolved "https://registry.yarnpkg.com/@fluentui/keyboard-key/-/keyboard-key-0.2.15.tgz#0a6fede20185779e4135ec06a7fe65b433333140"
+  integrity sha512-0mGhpTRCo1c3/iizbL79cSy2WuLtNvM/5lB2PTIoiCzdJJZKWK3Ug3Thg8CMKlVM+wUpzA9/NcIuLDys7e7iZQ==
+  dependencies:
     tslib "^1.10.0"
 
 "@fluentui/merge-styles@^8.0.2":
@@ -930,6 +965,55 @@
     "@fluentui/set-version" "^8.0.1"
     tslib "^1.10.0"
 
+"@fluentui/react-focus@^8.0.5":
+  version "8.0.5"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-focus/-/react-focus-8.0.5.tgz#9232c6b72a9c14dc726d3e3f94848419a269b0a3"
+  integrity sha512-46siGekyawTABZKxkkxzJeezUza1cXaLw42Q+iuIggc1uLksnrmjSrswAhzx91Yfo9yOf3BejMoad91/2GDJhQ==
+  dependencies:
+    "@fluentui/keyboard-key" "^0.2.15"
+    "@fluentui/merge-styles" "^8.0.2"
+    "@fluentui/set-version" "^8.0.1"
+    "@fluentui/style-utilities" "^8.0.2"
+    "@fluentui/utilities" "^8.0.2"
+    tslib "^1.10.0"
+
+"@fluentui/react-hooks@^8.1.0":
+  version "8.1.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-hooks/-/react-hooks-8.1.0.tgz#dbb46ac66212e4fc7a630719324d42a95629f965"
+  integrity sha512-D/6SUYfc9GFBXwCJz+35B4GoFrunaNBT8xcFNtOFUP1biTBejErcaDxBA3X++UieBza6xXYgl1r60nM+8EHXgg==
+  dependencies:
+    "@fluentui/react-window-provider" "^2.0.1"
+    "@fluentui/set-version" "^8.0.1"
+    "@fluentui/utilities" "^8.0.2"
+    tslib "^1.10.0"
+
+"@fluentui/react-window-provider@^2.0.1":
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/@fluentui/react-window-provider/-/react-window-provider-2.0.1.tgz#a7a88d5b8bfab86ad0ffc5fbff9ebcf853bf7b1d"
+  integrity sha512-EpTRWLWK2hY/eSHuHpRwtUlsHI1n7VZldUWlpP9+4zM//STh1xh0QGGPKVk4PAY/mYDB9LJaqRZk/NYDljoJQw==
+  dependencies:
+    "@fluentui/set-version" "^8.0.1"
+    tslib "^1.10.0"
+
+"@fluentui/react@^8.6.0":
+  version "8.7.0"
+  resolved "https://registry.yarnpkg.com/@fluentui/react/-/react-8.7.0.tgz#e9ee2ede6a877a759189c44a9efcd48a41313e7e"
+  integrity sha512-W8kKyW1u36IMXVHbibQMMpSRwKYDSIqnQfrnuC3oziE0s9vxwU8w/mr3/K/P0eMMRvp1XPPKpGLvWbkpSExtTg==
+  dependencies:
+    "@fluentui/date-time-utilities" "^8.0.1"
+    "@fluentui/font-icons-mdl2" "^8.0.2"
+    "@fluentui/foundation-legacy" "^8.0.2"
+    "@fluentui/merge-styles" "^8.0.2"
+    "@fluentui/react-focus" "^8.0.5"
+    "@fluentui/react-hooks" "^8.1.0"
+    "@fluentui/react-window-provider" "^2.0.1"
+    "@fluentui/set-version" "^8.0.1"
+    "@fluentui/style-utilities" "^8.0.2"
+    "@fluentui/theme" "^2.0.2"
+    "@fluentui/utilities" "^8.0.2"
+    "@microsoft/load-themed-styles" "^1.10.26"
+    tslib "^1.10.0"
+
 "@fluentui/set-version@^8.0.1":
   version "8.0.1"
   resolved "https://registry.yarnpkg.com/@fluentui/set-version/-/set-version-8.0.1.tgz#3537c31bce9c340df579d189ae82d78c944c8927"
@@ -937,7 +1021,7 @@
   dependencies:
     tslib "^1.10.0"
 
-"@fluentui/style-utilities@8.0.2":
+"@fluentui/style-utilities@8.0.2", "@fluentui/style-utilities@^8.0.2":
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/@fluentui/style-utilities/-/style-utilities-8.0.2.tgz#bb29e0bb193578fa3e20ece85c3c6168fee374d8"
   integrity sha512-W2ToHCALjK/+KKEbmWSkaRs7nI7UnxdOgMJD7GM6a1WmJrtdn4HZyrbhJKlXqSRZsklJbsRcvbVlvsJ1NVF+6A==
@@ -5145,6 +5229,15 @@ range-parser@1.2.0:
   resolved "https://registry.yarnpkg.com/range-parser/-/range-parser-1.2.0.tgz#f49be6b487894ddc40dcc94a322f611092e00d5e"
   integrity sha1-9JvmtIeJTdxA3MlKMi9hEJLgDV4=
 
+react-dom@17.0.2:
+  version "17.0.2"
+  resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.2.tgz#ecffb6845e3ad8dbfcdc498f0d0a939736502c23"
+  integrity sha512-s4h96KtLDUQlsENhMn1ar8t2bEa+q/YAtj8pPPdIjPDGBDIVNsrD9aXNWqspUe6AzKCIG0C1HZZLqLV7qpOBGA==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
+    scheduler "^0.20.2"
+
 react-refresh@^0.9.0:
   version "0.9.0"
   resolved "https://registry.yarnpkg.com/react-refresh/-/react-refresh-0.9.0.tgz#71863337adc3e5c2f8a6bfddd12ae3bfe32aafbf"
@@ -5399,6 +5492,14 @@ saxes@^3.1.9:
   integrity sha512-Ydydq3zC+WYDJK1+gRxRapLIED9PWeSuuS41wqyoRmzvhhh9nc+QQrVMKJYzJFULazeGhzSV0QleN2wD3boh2g==
   dependencies:
     xmlchars "^2.1.1"
+
+scheduler@^0.20.2:
+  version "0.20.2"
+  resolved "https://registry.yarnpkg.com/scheduler/-/scheduler-0.20.2.tgz#4baee39436e34aa93b4874bddcbf0fe8b8b50e91"
+  integrity sha512-2eWfGgAqqWFGqtdMmcL5zCMK1U8KlXv8SQFGglL3CEtd0aDVDWgeF/YoCmvln55m5zSk3J/20hTaSBeSObsQDQ==
+  dependencies:
+    loose-envify "^1.1.0"
+    object-assign "^4.1.1"
 
 secure-compare@3.0.1:
   version "3.0.1"
