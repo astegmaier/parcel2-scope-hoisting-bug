@@ -1,0 +1,17 @@
+{
+    "private": "true",
+    "workspaces": [
+      "simple-dependency",
+      "parcel-repro-simple",
+      "parcel-repro-real",
+      "webpack-test"
+    ],
+    "scripts": {
+      "clean": "yarn workspaces run clean",
+      "build": "yarn simple build && yarn real build && yarn webpack build",
+      "simple": "yarn workspace simple-dependency",
+      "real": "yarn workspace parcel-repro-simple",
+      "webpack": "yarn workspace webpack-test"
+    }
+  }
+  
