@@ -1,1 +1,3 @@
-console.log("hello!");
+import { message } from "simple-dependency";
+
+console.log(message);
