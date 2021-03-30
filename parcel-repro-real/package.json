@@ -1,9 +1,10 @@
 {
   "name": "parcel-repro-real",
   "version": "1.0.0",
+  "license": "MIT",
   "scripts": {
-    "build": "parcel build src/index.js",
-    "start": "parcel src/index.js"
+    "build": "parcel build src/index.js --cache-dir .parcel-cache",
+    "start": "parcel src/index.js --cache-dir .parcel-cache"
   },
   "devDependencies": {
     "parcel": "2.0.0-beta.2"

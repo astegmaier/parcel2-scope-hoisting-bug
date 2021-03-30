@@ -1,1 +1,3 @@
-export const message = "hello from simple dependency";
+export * from "./message";
+
+console.log("This is a side effect!");

@@ -1,8 +1,11 @@
 {
-    "name": "simple-dependency",
-    "version": "1.0.0",
-    "description": "A simple dependency that combines sideEffects: [files] with export * behavior",
-    "private": true,
-    "main": "./index.js"
-  }
-  
+  "name": "simple-dependency",
+  "version": "1.0.0",
+  "license": "MIT",
+  "description": "A simple dependency that combines sideEffects: [files] with export * behavior",
+  "private": true,
+  "main": "./index.js",
+  "sideEffects": [
+    "./index.js"
+  ]
+}
