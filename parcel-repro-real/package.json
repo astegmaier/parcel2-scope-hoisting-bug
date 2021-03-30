@@ -3,11 +3,17 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "build": "parcel build src/index.js --cache-dir .parcel-cache",
-    "clean": "rimraf dist && rimraf .parcel-cache"
+    "build": "parcel build src/index.html --no-optimize --cache-dir .parcel-cache",
+    "clean": "rimraf dist && rimraf .parcel-cache",
+    "serve": "http-server dist --port 8080"
+  },
+  "dependencies": {
+    "@fluentui/style-utilities": "8.0.2",
+    "react": "^17.0.2"
   },
   "devDependencies": {
     "parcel": "2.0.0-beta.2",
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "http-server": "^0.12.3"
   }
 }
