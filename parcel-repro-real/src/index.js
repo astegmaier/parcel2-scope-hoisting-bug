@@ -11,5 +11,9 @@
 // initializeIcons();
 
 // This also triggers a different issue:
-import { Overlay } from "@fluentui/react";
-console.log("here is Overlay: ", Overlay);
+// import { Overlay } from "@fluentui/react";
+// console.log("here is Overlay: ", Overlay);
+
+// So does this:
+import { AnimationClassNames } from "@fluentui/react";
+console.log("here is AnimationClassNames: ", AnimationClassNames);
