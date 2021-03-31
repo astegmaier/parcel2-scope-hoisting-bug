@@ -1,4 +1,4 @@
-import { getGlobalClassNames } from "@fluentui/style-utilities";
+import { getGlobalClassNames } from "simple-dependency2";
 
 export const classNames = getGlobalClassNames({} as any, {} as any, false);
 
