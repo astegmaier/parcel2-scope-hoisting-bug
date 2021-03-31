@@ -1,3 +1,3 @@
 // This causes the problem by itself!
-import { createTheme } from '../../Styling';
+import { createTheme } from "./Styling";
 export const myTheme = createTheme();
