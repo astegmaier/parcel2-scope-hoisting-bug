@@ -1,2 +1,1 @@
-// import './version';
-export * from '@fluentui/style-utilities';
+export * from "@fluentui/style-utilities";
