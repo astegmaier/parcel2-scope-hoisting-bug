@@ -1,15 +1,15 @@
 {
-  "name": "simple-dependency-reexport",
+  "name": "simple-dependency2",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "A package the re-exports from simple-dependency",
+  "description": "A simple dependency that combines sideEffects: [files] with export * behavior",
   "private": true,
   "main": "dist/index.js",
-  "sideEffects": [
-    "dist/sideEffect.js"
-  ],
+  "module": "dist/index.js",
+  "sideEffects": false,
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -w -p ./tsconfig.json",
     "clean": "rimraf dist"
   },
   "devDependencies": {

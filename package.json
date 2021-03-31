@@ -2,7 +2,7 @@
   "private": "true",
   "workspaces": [
     "simple-dependency",
-    "simple-dependency-reexport",
+    "simple-dependency2",
     "parcel-repro-simple",
     "parcel-repro-real",
     "webpack-test"
@@ -11,7 +11,7 @@
     "clean": "yarn dep clean && yarn dep2 clean && yarn simple clean && yarn real clean",
     "build": "yarn dep build && yarn dep2 build && yarn simple build && yarn real build && yarn webpack build",
     "dep": "yarn workspace simple-dependency",
-    "dep2": "yarn workspace simple-dependency-reexport",
+    "dep2": "yarn workspace simple-dependency2",
     "simple": "yarn workspace parcel-repro-simple",
     "real": "yarn workspace parcel-repro-real",
     "webpack": "yarn workspace webpack-test"
