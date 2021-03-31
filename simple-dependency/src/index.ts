@@ -1,4 +1,4 @@
-export * from "./message";
-export * from "./message2";
-
-console.log("This is a side effect!");
+// This will cause the problem by itself if left un-commented:
+export * from './components/Fabric/repro';
+export * from './Overlay';
+export const aString = "here's a string from fluentui!";

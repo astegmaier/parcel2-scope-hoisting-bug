@@ -1,3 +1,3 @@
-import { messageObject, getMessage } from "simple-dependency-reexport";
+import { aStringFromOverlayOverlay } from "simple-dependency";
 
-console.log(messageObject, getMessage());
+console.log(aStringFromOverlayOverlay);

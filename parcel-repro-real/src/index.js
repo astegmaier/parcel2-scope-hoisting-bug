@@ -11,5 +11,21 @@
 // initializeIcons();
 
 // This also triggers a different issue:
-import { Overlay } from "@fluentui/react";
-console.log("here is Overlay: ", Overlay);
+// import { Overlay } from "@fluentui/react";
+// console.log("here is Overlay: ", Overlay);
+
+// "aString" was exported from "@fluentui/react/src/index.ts", and it works fine.
+// import { aString } from "@fluentui/react";
+// console.log(aString)
+
+// This works, too, but the and the output starts using $parcel$exportWildcard
+// import { aStringFromOverlay } from "@fluentui/react";
+// console.log(aStringFromOverlay);
+
+// This works, too.
+// import { aStringFromOverlayIndex } from "@fluentui/react";
+// console.log(aStringFromOverlayIndex);
+
+// This blows up (hooray!). It's imported from "@fluentui/react/src/components/Overlay/Overlay.ts"
+import { aStringFromOverlayOverlay } from "@fluentui/react";
+console.log(aStringFromOverlayOverlay);
