@@ -6,9 +6,7 @@
   "private": true,
   "main": "dist/index.js",
   "module": "dist/index.js",
-  "sideEffects": [
-    "dist/unusedSideEffect.js"
-  ],
+  "sideEffects": false,
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "watch": "tsc -w -p ./tsconfig.json",
