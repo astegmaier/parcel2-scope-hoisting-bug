@@ -1,4 +1,4 @@
-import { getGlobalClassNames } from "../../Styling";
+import { getGlobalClassNames } from "@fluentui/style-utilities";
 
 export const classNames = getGlobalClassNames({} as any, {} as any, false);
 

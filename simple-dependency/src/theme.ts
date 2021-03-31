@@ -1,3 +1,2 @@
-// This causes the problem by itself!
-import { createTheme } from "./Styling";
+import { createTheme } from "@fluentui/style-utilities";
 export const myTheme = createTheme();
