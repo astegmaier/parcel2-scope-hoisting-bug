@@ -6,7 +6,8 @@
     "parcel-repro-simple",
     "parcel-repro-real",
     "webpack-test",
-    "fluentui-local"
+    "fluentui-local",
+    "fluentui-local-scripts"
   ],
   "scripts": {
     "clean": "yarn dep clean && yarn dep2 clean && yarn simple clean && yarn real clean",
@@ -14,6 +15,7 @@
     "dep": "yarn workspace simple-dependency",
     "dep2": "yarn workspace simple-dependency-reexport",
     "fluent": "yarn workspace fluentui-local",
+    "fluent-scripts": "yarn workspace fluentui-local-scripts",
     "simple": "yarn workspace parcel-repro-simple",
     "real": "yarn workspace parcel-repro-real",
     "webpack": "yarn workspace webpack-test"
