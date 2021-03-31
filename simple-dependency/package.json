@@ -7,7 +7,7 @@
   "main": "dist/index.js",
   "module": "dist/index.js",
   "sideEffects": [
-    "lib/version.js"
+    "dist/unusedSideEffect.js"
   ],
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
