@@ -1,2 +1,2 @@
 export * from "./theme";
-export * from "./stuffReExport";
+export * from "./stuff";
