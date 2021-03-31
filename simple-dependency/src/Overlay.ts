@@ -1,3 +1,1 @@
-export * from './components/Overlay/index';
-
-export const aStringFromOverlay = 'here is a string from overlay.ts';
+export * from "./components/Overlay/index";

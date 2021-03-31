@@ -1,3 +1,3 @@
-import { aStringFromOverlayOverlay } from "simple-dependency";
+import { aStringExport } from "simple-dependency";
 
-console.log(aStringFromOverlayOverlay);
+console.log(aStringExport);
