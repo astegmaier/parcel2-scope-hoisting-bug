@@ -8,8 +8,8 @@
     "webpack-test"
   ],
   "scripts": {
-    "clean": "yarn simple clean && yarn real clean && yarn wp clean",
-    "build": "yarn simple build && yarn real build && yarn wp build",
+    "clean": "yarn simple clean && yarn real clean && yarn webpack clean",
+    "build": "yarn simple build && yarn real build && yarn webpack build",
     "simple": "yarn workspace parcel-repro-simple",
     "real": "yarn workspace parcel-repro-real",
     "webpack": "yarn workspace webpack-test"

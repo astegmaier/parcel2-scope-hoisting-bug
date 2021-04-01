@@ -2,7 +2,6 @@
   "name": "simple-dependency",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "A package that consumes simple-dependency2, and provides another unrelated value to parcel-repro-simple",
   "main": "index.js",
   "sideEffects": false
 }
