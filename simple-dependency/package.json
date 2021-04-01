@@ -4,6 +4,5 @@
   "license": "MIT",
   "description": "A simple dependency that combines sideEffects: [files] with export * behavior",
   "main": "index.js",
-  "module": "index.js",
   "sideEffects": false
 }
