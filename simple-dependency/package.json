@@ -3,20 +3,7 @@
   "version": "1.0.0",
   "license": "MIT",
   "description": "A simple dependency that combines sideEffects: [files] with export * behavior",
-  "private": true,
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "sideEffects": false,
-  "scripts": {
-    "build": "tsc -p ./tsconfig.json",
-    "watch": "tsc -w -p ./tsconfig.json",
-    "clean": "rimraf dist"
-  },
-  "dependencies": {
-    "@fluentui/style-utilities": "8.0.2"
-  },
-  "devDependencies": {
-    "rimraf": "^3.0.2",
-    "typescript": "^4.2.3"
-  }
+  "main": "index.js",
+  "module": "index.js",
+  "sideEffects": false
 }
