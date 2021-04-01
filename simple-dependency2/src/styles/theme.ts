@@ -1,1 +1,3 @@
-export { createTheme } from "@fluentui/theme/lib/createTheme";
+export function createTheme(): string {
+  return "a theme";
+}
