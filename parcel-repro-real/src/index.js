@@ -7,8 +7,8 @@
 // console.log("here is buildClassMap: ", buildClassMap);
 
 // This triggers the issue:
-// import { initializeIcons } from "@fluentui/react";
-// initializeIcons();
+import { initializeIcons } from "@fluentui/react";
+initializeIcons();
 
 // This also triggers a different issue:
 // import { Overlay } from "@fluentui/react";
@@ -27,5 +27,5 @@
 // console.log(aStringFromOverlayIndex);
 
 // This blows up (hooray!). It's imported from "@fluentui/react/src/components/Overlay/Overlay.ts"
-import { aStringFromOverlayOverlay } from "@fluentui/react";
-console.log(aStringFromOverlayOverlay);
+// import { aStringFromOverlayOverlay } from "@fluentui/react";
+// console.log(aStringFromOverlayOverlay);

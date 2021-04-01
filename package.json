@@ -8,10 +8,8 @@
     "webpack-test"
   ],
   "scripts": {
-    "clean": "yarn dep clean && yarn dep2 clean && yarn simple clean && yarn real clean",
-    "build": "yarn dep build && yarn dep2 build && yarn simple build && yarn real build && yarn webpack build",
-    "dep": "yarn workspace simple-dependency",
-    "dep2": "yarn workspace simple-dependency2",
+    "clean": "yarn simple clean && yarn real clean",
+    "build": "yarn simple build && yarn real build",
     "simple": "yarn workspace parcel-repro-simple",
     "real": "yarn workspace parcel-repro-real",
     "webpack": "yarn workspace webpack-test"
