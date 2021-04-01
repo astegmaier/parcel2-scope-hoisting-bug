@@ -1,6 +1,6 @@
 # parcel2-scope-hoisting-bug
 
-This repo contains several packages the help test an issue with scope-hoisting that affects recent builds of parcel2. To get started, run `yarn` and `yarn build`, and then you can see the issue in several contexts:
+This repo contains several packages the help test an issue with scope-hoisting that affects recent builds of parcel2 ([#6071](https://github.com/parcel-bundler/parcel/issues/6071)). To get started, run `yarn` and `yarn build`, and then you can see the issue in several contexts:
 
 1. **parcel-repro-real** - this package shows this issue in a real-life situation (importing and using things from the `@fluentui/react` package). You can see it by running `yarn real serve` after building to see output `http://localhost:8080`.
 
