@@ -1,7 +1,7 @@
 import { add } from "simple-dependency2";
 
-// This is unused by parcel-repro-simple
+// This is NOT used by parcel-repro-simple
 export const sum = add(3, 3);
 
-// This is the only thing that we're ultimately going to try to import into parcel.
+// This is the ONLY thing that is used by parcel-repro-simple
 export const aStringExport = "here is a string exported from simple-dependency";
