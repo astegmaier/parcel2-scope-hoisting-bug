@@ -2,7 +2,7 @@
   "name": "simple-dependency2",
   "version": "1.0.0",
   "license": "MIT",
-  "description": "A simple dependency that combines sideEffects: [files] with export * behavior",
+  "description": "A package that provides two functions to simple-dependency",
   "main": "index.js",
   "sideEffects": [
     "index.js"
