@@ -1,2 +1,2 @@
-export { getGlobalClassNames, GlobalClassNames } from "./getGlobalClassNames";
+export { getGlobalClassNames } from "./getGlobalClassNames";
 export { createTheme } from "./theme";
